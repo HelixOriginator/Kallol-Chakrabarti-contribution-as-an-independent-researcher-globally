@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://helixoriginator.github.io/Kallol-Chakrabarti-contribution-as-an-independent-researcher-globally/sitemap.xml
