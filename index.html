@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kallol Chakrabarti's Contribution as an Independent Researcher | Global Portfolio</title>
+<meta name="description" content="A factual portfolio of Kallol Chakrabarti's published research, policy proposals, and documentation as an independent researcher — SSRN, Figshare, Zenodo, and government submission records.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0d10;
+    --panel:#14171c;
+    --panel-2:#181c22;
+    --ink:#ece7db;
+    --ink-dim:#9aa2ab;
+    --ink-faint:#5f6770;
+    --gold:#c99a4a;
+    --gold-dim:#8a6c39;
+    --slate:#5b87a6;
+    --rule:#262b32;
+    --rule-strong:#343a42;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 600px at 15% -10%, rgba(201,154,74,0.07), transparent 60%),
+      radial-gradient(900px 500px at 100% 10%, rgba(91,135,166,0.06), transparent 55%),
+      var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--gold-dim); color:#0b0d10;}
+  a{color:var(--gold);}
+  .wrap{max-width:920px; margin:0 auto; padding:0 28px;}
+
+  .topbar{
+    border-bottom:1px solid var(--rule);
+    padding:18px 0;
+    position:sticky; top:0; z-index:20;
+    background:rgba(11,13,16,0.86);
+    backdrop-filter:blur(10px);
+  }
+  .topbar .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px;}
+  .brandmark{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px; letter-spacing:0.14em; color:var(--ink-dim); text-transform:uppercase;
+  }
+  .brandmark b{color:var(--gold); font-weight:500;}
+  .topnav{display:flex; gap:22px; font-size:13px; font-family:'IBM Plex Mono',monospace; letter-spacing:0.04em;}
+  .topnav a{color:var(--ink-dim); text-decoration:none; border-bottom:1px solid transparent; padding-bottom:2px;}
+  .topnav a:hover{color:var(--gold); border-color:var(--gold-dim);}
+
+  .hero{padding:72px 0 44px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);
+    display:flex; align-items:center; gap:10px; margin-bottom:22px;
+  }
+  .eyebrow::before{content:""; width:26px; height:1px; background:var(--slate);}
+  h1.title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(30px, 4.6vw, 48px);
+    line-height:1.12;
+    margin:0 0 20px;
+    letter-spacing:-0.01em;
+    max-width:20ch;
+  }
+  .subtitle{
+    color:var(--ink-dim); font-size:16.5px; max-width:62ch; margin:0 0 28px;
+  }
+  .id-tags{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:8px;}
+  .id-tag{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.04em;
+    color:var(--ink-dim); border:1px solid var(--rule-strong); border-radius:20px;
+    padding:6px 14px;
+  }
+  .id-tag b{color:var(--gold); font-weight:500;}
+
+  section{padding:56px 0;}
+  section + section{border-top:1px solid var(--rule);}
+  .sec-head{margin-bottom:10px;}
+  .sec-num{
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--gold-dim);
+    display:block; margin-bottom:8px;
+  }
+  h2{
+    font-family:'Fraunces', serif; font-weight:600;
+    font-size:clamp(22px, 2.6vw, 28px); margin:0 0 10px; letter-spacing:-0.01em;
+  }
+  .sec-intro{color:var(--ink-dim); font-size:15px; max-width:66ch; margin:0 0 34px;}
+
+  /* ---------- link buttons ---------- */
+  .link-grid{display:grid; gap:16px;}
+  .link-card{
+    display:grid;
+    grid-template-columns:1fr auto;
+    align-items:center;
+    gap:20px;
+    border:1px solid var(--rule-strong);
+    border-radius:4px;
+    background:linear-gradient(155deg, rgba(201,154,74,0.045), var(--panel) 55%);
+    padding:24px 26px;
+    text-decoration:none;
+    color:inherit;
+    transition:border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+  }
+  .link-card:hover{
+    border-color:var(--gold-dim);
+    transform:translateY(-1px);
+    background:linear-gradient(155deg, rgba(201,154,74,0.09), var(--panel) 55%);
+  }
+  .link-card .lc-tag{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.1em;
+    color:var(--slate); text-transform:uppercase; margin-bottom:8px; display:block;
+  }
+  .link-card h3{
+    font-family:'IBM Plex Sans', sans-serif; font-weight:600; font-size:17px;
+    margin:0 0 8px; color:var(--ink); letter-spacing:-0.005em;
+  }
+  .link-card p{
+    margin:0; font-size:13.5px; color:var(--ink-dim); line-height:1.55; max-width:56ch;
+  }
+  .lc-arrow{
+    font-family:'IBM Plex Mono', monospace; font-size:20px; color:var(--gold-dim);
+    transition:transform 0.2s ease, color 0.2s ease;
+  }
+  .link-card:hover .lc-arrow{transform:translateX(3px); color:var(--gold);}
+
+  /* ---------- documented record ledger ---------- */
+  .ledger{
+    border:1px solid var(--rule-strong); border-radius:3px; overflow:hidden; background:var(--panel);
+  }
+  .ledger-row{
+    display:grid; grid-template-columns:180px 1fr 150px;
+    gap:16px;
+    padding:18px 22px;
+    border-bottom:1px solid var(--rule);
+    align-items:start;
+  }
+  .ledger-row:last-child{border-bottom:none;}
+  .ledger-row .lr-label{
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--gold);
+    font-weight:500; letter-spacing:0.02em;
+  }
+  .ledger-row .lr-detail{font-size:14px; color:var(--ink-dim); line-height:1.55;}
+  .lr-status{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.06em;
+    text-transform:uppercase; text-align:right; align-self:start;
+  }
+  .status-confirmed{color:var(--slate);}
+  .status-pending{color:var(--gold);}
+  @media (max-width:640px){
+    .ledger-row{grid-template-columns:1fr; gap:6px;}
+    .lr-status{text-align:left;}
+  }
+
+  .note{
+    margin-top:28px; padding:18px 22px; border:1px dashed var(--rule-strong); border-radius:3px;
+    font-size:13.5px; color:var(--ink-faint); line-height:1.6;
+  }
+  .note b{color:var(--ink-dim);}
+
+  footer{border-top:1px solid var(--rule); padding:34px 0 46px;}
+  footer .wrap{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
+  .footer-credit{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-faint); letter-spacing:0.03em;}
+  .footer-credit b{color:var(--ink-dim); font-weight:500;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="brandmark"><b>KC</b> — Research Portfolio</div>
+    <nav class="topnav">
+      <a href="#work">Published Work</a>
+      <a href="#record">Documented Record</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Independent Researcher</div>
+    <h1 class="title">Kallol Chakrabarti's contribution as an independent researcher, globally.</h1>
+    <p class="subtitle">Lucknow, India. A portfolio of published papers, policy proposals, and documentation — linked directly to their primary sources so every claim below can be checked independently.</p>
+    <div class="id-tags">
+      <span class="id-tag">ORCID <b>0009-0007-4971-8936</b></span>
+      <span class="id-tag">SSRN Author ID <b>7407085</b></span>
+      <span class="id-tag">Based in <b>Lucknow, India</b></span>
+    </div>
+  </div>
+</header>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Published Work &amp; Proposals</h2></div>
+    <p class="sec-intro">Concept papers, policy frameworks, and research repositories — each link goes to the primary page.</p>
+
+    <div class="link-grid">
+
+      <a class="link-card" href="https://helixoriginator.github.io/kallol-chakrabarti-vision-for-independent-researchers/" target="_blank" rel="noopener">
+        <div>
+          <span class="lc-tag">Concept Paper · Figshare DOI</span>
+          <h3>The Epistemology of Unaffiliated Research</h3>
+          <p>A vision paper proposing global infrastructure ("Research Sanctuaries") to document, validate, and preserve independent research output outside university systems.</p>
+        </div>
+        <span class="lc-arrow">→</span>
+      </a>
+
+      <a class="link-card" href="https://helixoriginator.github.io/Global-Framework-for-Independent-Researchers-The-Kallol-Taxonomy-of-Research-and-Innovation/" target="_blank" rel="noopener">
+        <div>
+          <span class="lc-tag">Policy Framework · Self-Authored</span>
+          <h3>Global Framework for Independent Researchers (Kallol Taxonomy)</h3>
+          <p>A proposed, broadened definition of "independent researcher" plus policy recommendations — DOI classification reform, IP award categories, policy-consultation access for citizen innovators.</p>
+        </div>
+        <span class="lc-arrow">→</span>
+      </a>
+
+      <a class="link-card" href="https://helixoriginator.github.io/ssrn-milestones/" target="_blank" rel="noopener">
+        <div>
+          <span class="lc-tag">Author Profile · Verified on SSRN</span>
+          <h3>SSRN Research Record</h3>
+          <p>10 working papers across governance, AI ethics, and public policy under SSRN Author ID 7407085, independently viewable and verifiable on SSRN's own platform.</p>
+        </div>
+        <span class="lc-arrow">→</span>
+      </a>
+
+      <a class="link-card" href="https://helixoriginator.github.io/sanatana-knowledge-ecosystem/" target="_blank" rel="noopener">
+        <div>
+          <span class="lc-tag">Essay &amp; Paper Collection</span>
+          <h3>Helix Sanatana Ecosystem</h3>
+          <p>A collection of essays and papers reinterpreting Dharma, Vedic philosophy, and governance concepts through comparative and systems-theory lenses, including a paper on Zenodo.</p>
+        </div>
+        <span class="lc-arrow">→</span>
+      </a>
+
+      <a class="link-card" href="https://helixoriginator.github.io/mygov-submission-approved-evidence/" target="_blank" rel="noopener">
+        <div>
+          <span class="lc-tag">Documentary Record</span>
+          <h3>MyGov Submission — Evidence Archive</h3>
+          <p>Screenshots documenting an idea submitted to a MyGov.in public discussion thread, and the platform's notification confirming it was approved for publication.</p>
+        </div>
+        <span class="lc-arrow">→</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="record">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Documented Record</h2></div>
+    <p class="sec-intro">Status of formal submissions and third-party-verifiable records, stated as they currently stand.</p>
+
+    <div class="ledger">
+      <div class="ledger-row">
+        <div class="lr-label">NITI Aayog</div>
+        <div class="lr-detail">Policy submission (NIRA framework) filed via NITI Aayog's official feedback form.</div>
+        <div class="lr-status status-confirmed">Receipt confirmed</div>
+      </div>
+      <div class="ledger-row">
+        <div class="lr-label">MyGov.in</div>
+        <div class="lr-detail">Idea submitted to a public MyGov discussion thread ahead of Mann Ki Baat, 30 Aug 2026.</div>
+        <div class="lr-status status-confirmed">Approved for publication</div>
+      </div>
+      <div class="ledger-row">
+        <div class="lr-label">Guinness World Records</div>
+        <div class="lr-detail">New category proposed: "Unaffiliated Independent Researcher with Most DOIs in a Year," submitted 20 April 2026.</div>
+        <div class="lr-status status-pending">Under manual review</div>
+      </div>
+      <div class="ledger-row">
+        <div class="lr-label">SSRN</div>
+        <div class="lr-detail">10 scholarly papers, 1,040+ downloads on record — verifiable directly on SSRN's author page.</div>
+        <div class="lr-status status-confirmed">Live &amp; verifiable</div>
+      </div>
+      <div class="ledger-row">
+        <div class="lr-label">Patent Office (CGPDTM)</div>
+        <div class="lr-detail">National BRICS HIPO Event — registered for the "Open Session with HIPOs" and Cultural Evening, 3rd September 2026, following confirmation from the Patent Office for participation. Venue relocated from Varanasi to New Delhi due to heavy rainfall advisories; date and time unchanged.</div>
+        <div class="lr-status status-confirmed">Participation confirmed</div>
+      </div>
+    </div>
+
+    <div class="note">
+      <b>On terminology:</b> submissions marked "receipt confirmed" or "approved for publication" indicate the platform logged or published the submission — they are not an evaluation, endorsement, or adoption of the underlying proposal by the receiving body. Frameworks and definitions listed above are self-authored proposals unless otherwise stated.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-credit">Created by <b>Kallol Chakrabarti</b>, global Independent Researcher</div>
+  </div>
+</footer>
+
+</body>
+</html>
