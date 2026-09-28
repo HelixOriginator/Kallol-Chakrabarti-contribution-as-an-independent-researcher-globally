@@ -123,6 +123,19 @@ border: 1px solid var(--gold);
 color: var(--gold);
 font-weight: 700;
 }
+/* Peer Reviewer Achievement Card */
+.link-card.achievement {
+grid-column: 1 / -1;
+background: linear-gradient(155deg, rgba(91,135,166,0.20), rgba(201,154,74,0.10) 45%, var(--panel) 80%);
+border: 2px solid var(--slate);
+box-shadow: 0 0 0 1px rgba(91,135,166,0.25), 0 8px 28px rgba(91,135,166,0.12);
+}
+.link-card.achievement:hover { border-color: var(--gold); }
+.link-card.achievement .lc-tag { color: var(--gold); font-weight: 700; }
+.link-card.achievement .lc-summary {
+display:block; margin-top:12px; padding-top:12px; border-top:1px solid var(--rule-strong);
+font-size:14px; font-weight:500; color:var(--ink); max-width:none;
+}
 .link-card .lc-tag{
 font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.1em;
 color:var(--slate); text-transform:uppercase; margin-bottom:8px; display:block;
@@ -216,6 +229,17 @@ footer .wrap{display:flex; justify-content:space-between; align-items:center; fl
 <div class="sec-head"><span class="sec-num">01</span><h2>Published Work &amp; Proposals</h2></div>
 <p class="sec-intro">Concept papers, policy frameworks, and research repositories — each link goes to the primary page.</p>
 <div class="link-grid">
+
+<!-- Achievement: Peer Reviewer on ScienceOpen -->
+<a class="link-card achievement" href="https://github.com/HelixOriginator/Kallol-Chakrabarti-contribution-as-an-independent-researcher-globally/blob/main/Screenshot%20of%20Peer%20Reviewer%20on%20Science%20Journal%20by%20Kallol%20Chakrabarti.png" target="_blank" rel="noopener">
+<div>
+<span class="lc-tag">🏅 Achievement · Peer Reviewer · ScienceOpen</span>
+<h3>Peer Reviewer on ScienceOpen — Screenshot of Published Review</h3>
+<p>Screenshot of a formal article review authored by Kallol Chakrabarti on ScienceOpen (dated 28 September 2026), rating the manuscript on importance, validity, completeness and comprehensibility.</p>
+<p class="lc-summary"><b style="color:var(--gold);">Why it matters:</b> Being a peer reviewer shows an independent researcher is trusted to evaluate other scholars' work, not just publish their own.</p>
+</div>
+<span class="lc-arrow">→</span>
+</a>
 
 <!-- New: Recognitions PDF button -->
 <a class="link-card featured" href="https://github.com/HelixOriginator/Kallol-Chakrabarti-contribution-as-an-independent-researcher-globally/blob/main/screenshots%20of%20recognitions%20from%20leading%20institutions%20(1).pdf" target="_blank" rel="noopener">
