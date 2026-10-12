@@ -7,6 +7,16 @@ A single-page, dark-mode portfolio documenting published research, policy propos
 
 ---
 
+## 🎖️ India Book of Records Record Holder (2025)
+Pioneering Unaffiliated Scholarship with 158 Sole-Authored DOIs & 275+ Total Scholarly Works Registered
+
+- Application ID: 18898
+- Public Verification: https://orcid.org/0009-0007-4971-8936
+- Editorial Role: Global Peer Reviewer at ScienceOpen (Editorial & Peer Review Division)
+- Indexing Platforms: Zenodo, DeSci Labs, SSRN, Figshare, OSF, Knowledge Commons, ResearchHub.
+
+---
+
 ## What's on the page
 
 ### Published Work & Proposals
@@ -22,6 +32,7 @@ A status ledger covering:
 |---|---|
 | NITI Aayog policy submission (NIRA) | Receipt confirmed |
 | MyGov.in idea submission | Approved for publication |
+| India Book of Records | Record Holder (App ID: 18898) |
 | Guinness World Records category proposal | Under manual review |
 | SSRN author profile | Live & verifiable |
 | Patent Office (CGPDTM) — BRICS HIPO Event | Participation confirmed |
@@ -31,24 +42,3 @@ Status labels reflect what each platform has actually confirmed — e.g. "receip
 ---
 
 ## Structure
-
-```
-index.html   — the full page (dark mode, self-contained, no build step)
-README.md    — this file
-```
-
-The page uses [Fraunces](https://fonts.google.com/specimen/Fraunces) and [IBM Plex Sans / Mono](https://fonts.google.com/specimen/IBM+Plex+Sans) via Google Fonts CDN, and has no other external dependencies.
-
-## Deploying
-
-Push to a repository named `<username>.github.io` (or any repo with GitHub Pages enabled) and the page will serve directly from `index.html`.
-
-## Author
-
-**Kallol Chakrabarti**, Independent Researcher
-ORCID: [0009-0007-4971-8936](https://orcid.org/0009-0007-4971-8936)
-SSRN Author ID: [7407085](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7407085)
-
-## License
-
-Content © Kallol Chakrabarti. Page markup provided as-is for personal use.
