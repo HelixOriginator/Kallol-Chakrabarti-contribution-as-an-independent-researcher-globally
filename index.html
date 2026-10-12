@@ -93,6 +93,74 @@ font-family:'Fraunces', serif; font-weight:600;
 font-size:clamp(22px, 2.6vw, 28px); margin:0 0 10px; letter-spacing:-0.01em;
 }
 .sec-intro{color:var(--ink-dim); font-size:15px; max-width:66ch; margin:0 0 34px;}
+
+/* ---------- Record Holder Banner ---------- */
+.record-banner {
+  grid-column: 1 / -1;
+  background: linear-gradient(145deg, rgba(201,154,74,0.08), rgba(91,135,166,0.08), var(--panel) 80%);
+  border: 1px solid var(--gold);
+  border-radius: 6px;
+  padding: 28px 32px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 24px rgba(201,154,74,0.08), 0 0 0 1px rgba(201,154,74,0.15);
+  position: relative;
+}
+.record-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--slate), var(--gold));
+  border-radius: 6px 6px 0 0;
+}
+.record-banner .rb-eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.record-banner h3 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(22px, 3.2vw, 28px);
+  color: var(--ink);
+  margin: 0 0 12px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.record-banner .rb-highlight {
+  font-size: 16px;
+  color: var(--gold);
+  font-weight: 600;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+.record-banner .rb-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  font-size: 14px;
+  color: var(--ink-dim);
+  line-height: 1.6;
+  background: rgba(11, 13, 16, 0.5);
+  padding: 18px 22px;
+  border-radius: 4px;
+  border: 1px solid var(--rule-strong);
+}
+.record-banner .rb-details div b {
+  color: var(--slate);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 /* ---------- link buttons ---------- */
 .link-grid{display:grid; gap:16px;}
 .link-card{
@@ -194,6 +262,9 @@ text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px;
 @media (max-width:640px){
 .ledger-row{grid-template-columns:1fr; gap:6px;}
 .lr-status{text-align:left;}
+.record-banner .rb-details {
+  grid-template-columns: 1fr;
+}
 }
 footer{border-top:1px solid var(--rule); padding:34px 0 46px;}
 footer .wrap{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
@@ -228,6 +299,28 @@ footer .wrap{display:flex; justify-content:space-between; align-items:center; fl
 <div class="wrap">
 <div class="sec-head"><span class="sec-num">01</span><h2>Published Work &amp; Proposals</h2></div>
 <p class="sec-intro">Concept papers, policy frameworks, and research repositories — each link goes to the primary page.</p>
+
+<!-- NEW: India Book of Records Highlight -->
+<div class="record-banner">
+  <div class="rb-eyebrow">🎖️ Official Recognition</div>
+  <h3>India Book of Records Record Holder (2025)</h3>
+  <p class="rb-highlight">Pioneering Unaffiliated Scholarship with 158 Sole-Authored DOIs &amp; 275+ Total Scholarly Works Registered</p>
+  <div class="rb-details">
+    <div>
+      <b>Application ID</b>
+      18898
+    </div>
+    <div>
+      <b>Editorial Role</b>
+      Global Peer Reviewer at ScienceOpen (Editorial &amp; Peer Review Division)
+    </div>
+    <div style="grid-column: 1 / -1;">
+      <b>Indexing Platforms</b>
+      Zenodo, DeSci Labs, SSRN, Figshare, OSF, Knowledge Commons, ResearchHub.
+    </div>
+  </div>
+</div>
+
 <div class="link-grid">
 
 <!-- Achievement: Peer Reviewer on ScienceOpen -->
